@@ -14,6 +14,6 @@ git clone https://github.com/D3One/K8-Shield.git && cd K8-Shield && chmod +x K8-
 
 ### ChangeLog
 
-202-  Added more audit modules for master node k8s
+2022 -  Added more audit modules for master node k8s
 
 2020 - the first release 
