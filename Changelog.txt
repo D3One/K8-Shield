@@ -1,0 +1,10 @@
+### Key Improvements in this new version:
+
+1.  **Updated Checks:** Removed deprecated API checks (e.g., `extensions/v1beta1`) and added checks for modern resources (e.g., `Ingress` in `networking.k8s.io/v1`, Pod Disruption Budgets).
+2.  **Pod Security Standards (PSS):** Added comprehensive checks based on the Kubernetes Pod Security Standards (Baseline & Restricted), which are the successor to Pod Security Policies (PSP).
+3.  **Improved Structure:** Organized checks into logical functions for better readability and maintainability.
+4.  **Better Output:** Enhanced color-coding (Red, Yellow, Green) and output formatting for clearer results. Added a summary counter at the end.
+5.  **Namespace Scoping:** Improved the `-n`/`--namespace` flag logic to correctly scope all checks.
+6.  **Error Handling:** Added more robust error handling and checks for command dependencies (`kubectl`, `jq`).
+7.  **Added `jq` dependency:** Used `jq` for more reliable JSON parsing, which is more robust than parsing raw JSON with `awk`/`grep`.
+8.  **Security Context Checks:** Added more detailed and modern security context checks (e.g., `allowPrivilegeEscalation`, `runAsNonRoot`, `seccompProfile`).
