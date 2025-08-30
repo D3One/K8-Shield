@@ -91,9 +91,9 @@ The tool provides a summary table with color-coded results:
 
 ### ChangeLog
 
-2025 -  Major update
-2022 -  Added more audit modules for master node k8s
-2020 -  The first release
+* **2025** -  Major update
+* **2022** -  Added more audit modules for master node k8s
+* **2020** -  The first release
 
 ---
 
