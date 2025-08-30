@@ -5,6 +5,8 @@
 [![GitHub License](https://img.shields.io/github/license/D3One/K8-Shield)](https://github.com/D3One/K8-Shield/blob/main/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
+<img width="806" height="450" alt="image" src="https://github.com/user-attachments/assets/551f162c-3f19-4c96-9a89-5b6cbe5b93da" />
+
 ---
 
 ### ✨ Features
